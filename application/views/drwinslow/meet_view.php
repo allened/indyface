@@ -1,0 +1,25 @@
+<h1>Meet Dr Winslow</h1>
+
+<div class="row-fluid">
+	<div class="span3 text-center">
+    <img src="../../../images/staff/dr_winslow.jpg" width="205" alt="Dr. Winslow - Winslow Facial Plastic Surgery&#169;" /> </div>
+    
+    <div class="span9">
+    	<p>
+    	<span class="title1">Dr. Catherine Winslow</span> is a facial plastic and reconstructive surgeon who believes that optimal outcomes are achieved through a combination of artistic abilities and a thorough understanding of the science involved in surgery. In fact, Dr. Winslow recently <u>scored the highest in the nation on the American Board of Facial Plastic and Reconstructive Surgery</u> (ABFPRS), underscoring her ability and dedication to her practice. She is determined to provide the highest quality of medical care and surgical outcomes that can be achieved. Dr. Winslow started her medical career at the Indiana University School of Medicine. After graduating with honors, she then completed an Otolaryngology residency at the University of Colorado. Her desire to take her skills to another level led her to Portland, Oregon, where she completed a fellowship in microvascular and facial cosmetic surgery. She then proceeded to Walter Reed Army Medical Center.
+        </p>
+        
+        <p>
+        As Chief of Facial Plastic and Reconstructive Surgery at Walter Reed for four years, Dr. Winslow honed her skills in cosmetic and reconstructive surgery. From facial cosmetic procedures to microvascular and trauma cases (from Bosnia, Afghanistan and Iraq), Dr. Winslow enjoyed a large practice and served America's finest with distinction. She was asked to serve as the Otolaryngology Consultant to the White House, a privilege she accepted with honor. Dr. Winslow still returns to lecture to The White House medical staff periodically.
+        </p>
+        
+        <p>
+        She was selected to serve as an examiner for the ABFPRS and the American Board of Otolaryngology-Head and Neck Surgery (ABOto) national examination boards, indicating her position as one of the top surgeons in the field nationally. She serves on facial plastic and microvascular committees for the American Academy of Otolaryngology. She has written numerous articles, given lectures all over the country, and maintains a strong interest in teaching. She is an Assistant Clinical Professor for Indiana University School of Medicine in the Department of Otolaryngology- Head and Neck Surgery. She is a fellow of the American College of Surgeons and the American Academy of Facial Plastic and Reconstructive Surgery, and is a diplomat of both the American Academy of Otolaryngology and the American Board of Facial Plastic and Reconstructive Surgery. She was recently awarded the Torchbearer Award by the State of Indiana for her accomplishments and contributions. She focuses on facial cosmetic enhancement, rhinoplasty and revision rhinoplasty. She simply is one of the most experienced, qualified facial plastic surgeons in the country.
+        </p>
+        
+        <p>
+        	<a target="new" href="../../../assets/documents/curriculum_vitae.pdf">Click here to see Dr. Winslow's full CV</a>
+        </p>
+        
+    </div>
+</div>

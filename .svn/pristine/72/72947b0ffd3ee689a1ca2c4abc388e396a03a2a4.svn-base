@@ -1,0 +1,27 @@
+RewriteEngine On
+RewriteBase /
+
+# Removes trailing slashes (prevents SEO duplicate content issues)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ $1 [L,R=301]
+
+# Enforce www
+# If you have subdomains, you can add them to 
+# the list using the "|" (OR) regex operator
+RewriteCond %{HTTP_HOST} !^(www|subdomain) [NC]
+RewriteRule ^(.*)$ http://www.indyface.com/$1 [L,R=301]
+
+
+
+RewriteRule ^index.php(/.*)?$ - [R=404]
+
+
+# Checks to see if the user is attempting to access a valid file,
+# such as an image or css document, if this isn't true it sends the
+# request to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+

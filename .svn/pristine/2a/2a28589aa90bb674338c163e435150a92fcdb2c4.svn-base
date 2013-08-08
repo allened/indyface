@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?$1 [L] 
+
+RewriteEngine on
+rewritecond %{http_host} ^indyface.com [nc]
+rewriterule ^(.*)$ http://www.indyface.com/$1 [r=301,nc]
+
+

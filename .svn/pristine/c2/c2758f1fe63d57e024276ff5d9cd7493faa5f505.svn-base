@@ -1,0 +1,36 @@
+<h1>
+Laser & Skin Care Services
+</h1>
+<h2>IN INDIANAPOLIS AND CARMEL INDIANA</h2>
+
+<div id="skincare">
+
+<div class="row-fluid">
+	<div class="span10 offset1">
+        <ul class="nav nav-list list3" >
+            <li><a href="skincare/microderm">Microderm</a></li>
+            <li><a href="/skin_resurfacing_peels_dermadrasion_indianapolis">Micropeel</a></li>
+            <li><a href="/skincare/facials">Facials</a></li>
+            <li><a href="/skin_resurfacing_peels_dermadrasion_indianapolis">Peels</a></li>
+            <li><a href="/skincare/lash_extensions">Lash Extensions</a></li>
+            <li><a href="/skincare/waxing">Waxing</a></li>
+            <li><a href="/skincare/acupuncture">Acupuncture</a></li>
+            <li><a href="/skin_resurfacing_peels_dermadrasion_indianapolis">Laser Skin Resurfacing</a></li>
+            <li><a href="/skincare/laser_hair_removal">Laser Hair Removal</a></li>
+            <li><a href="/skincare/perfect_tan">The Perfect Tan</a></li>
+            <li><a href="/skincare/message_therapy">Message Therapy</a></li>
+            <li><a href="/skincare/lumicell_touch">Cellulite Treatments</a></li>
+            <li><a href="/skincare/permanent_makeup">Permanent Makeup</a></li>
+            <li><a href="/skincare/aesthetics_question">Q & A</a></li>
+            <li><a href="/skincare/winslow_membership">The Winslow Membership</a></li>
+            <li><a href="#" onclick="return false">Vascular Laser</a></li>
+            	<ul class="nav-list">
+                	<li><a href="/skincare/patient_information">Patient Information</a></li>
+                    <li><a href="/skincare/vascular_faq">FAQ</a></li>
+                    <li><a href="/assets/documents/Instructions_Vascular_Laser.pdf">Patient Instructions</a></li>
+                </ul>
+        </ul>
+    </div>
+
+</div>
+</div>

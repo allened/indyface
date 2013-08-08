@@ -1,0 +1,31 @@
+<h1>
+Laser & Skin Care Services
+</h1>
+<h2>IN INDIANAPOLIS AND CARMEL INDIANA</h2>
+
+<div id="skincare">
+
+<div class="row-fluid">
+	<div class="span10 offset1">
+        <ul class="nav nav-list" >
+            <li><a href="#">Microderm</a></li>
+            <li><a href="#">Micropeel</a></li>
+            <li><a href="#">Facials</a></li>
+            <li><a href="#">Peels</a></li>
+            <li><a href="#">Lash Extensions</a></li>
+            <li><a href="#">Waxing</a></li>
+            <li><a href="#">Acupuncture</a></li>
+            <li><a href="#">Laser Skin Resurfacing</a></li>
+            <li><a href="#">Laser Hair Removal</a></li>
+            <li><a href="#">The Perfect Tan</a></li>
+            <li><a href="#">Message Therapy</a></li>
+            <li><a href="#">Cellulite Treatments</a></li>
+            <li><a href="#">Permanent Makeup</a></li>
+            <li><a href="#">Q & A</a></li>
+            <li><a href="#">The Winslow Membership</a></li>
+            <li><a href="#">Vascular Laser</a></li>
+        </ul>
+    </div>
+
+</div>
+</div>

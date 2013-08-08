@@ -1,0 +1,28 @@
+<h1>
+Browlift and Upper Eyelift/Blepharoplasty Surgery
+</h1>
+<h3>in Indianapolis and Carmel Indiana</h3>
+
+<div style="margin-bottom:100px;">
+<div id="allinone_thumbnailsBanner_cool" style="display:none;">
+                            <ul class="allinone_thumbnailsBanner_list">
+                            <!-- IMAGES -->
+                            <?
+                            $x = 0;
+							 while ($x < 7) { 
+								$x++;
+							?>
+                                <li data-bottom-thumb="images/procedures/thumbnails/<?=$x?>.jpg" data-text-id="#allinone_thumbnailsBanner_photoText1"><img src="images/procedures/browlift/browlift<?=$x?>.jpg" alt="" /></li>
+                            <? } ?>
+
+                            </ul>
+</div>
+</div>
+
+<p>
+Aging eyes can make the face look angry, tired, or sad. The brow tends to settle with age, especially the outer portion. This also increases the hooding, or appearance of extra eyelid skin. Lifting the brow elevates some of the upper eyelid skin excess. Depending on desired results, a browlift alone often can result in an amazing improvement in the upper third of the face. The brow can be lifted with an endoscopic approach with incisions in the hairline, or a trichophytic approach with an incision just beyond the start of the hairline. Both approaches give an excellent improvement to the eye region and can TEMPORARILY weaken the muscles of the forehead, resulting in a smooth even appearance of the skin. Muscle weakness is temporary, and the muscle returns to (a slightly weaker) functioning status in about 6-12 months. Downtime is about a week, and a headache is possible during recovery. Results are immediate, and swelling and bruising are minimal.
+</p>
+
+<p>
+The upper eyes can be addressed without lifting the brow. An upper eyelid blepharoplasty removes excess skin and fat, resulting in an improved eye contour and appearance. The position of the brow is not changed with a blepharoplasty alone. The procedure results in very minimal pain, and minimal bruising and swelling make this procedure an easy one from which to recover. The incision is strategically placed in the natural fold of the eyelid so it is not noticeable. The procedure is usually done under light sedation- general anesthesia is not required. Insurance will sometimes cover this procedure if peripheral vision is affected. A visual field exam can be obtained by an optometrist and forwarded to your insurance company to determine if costs would be covered. Blepharoplasty does not permanently improve the crows feet- BOTOX&#174; is a valuable adjunct to obtain the best result possible.
+</p>

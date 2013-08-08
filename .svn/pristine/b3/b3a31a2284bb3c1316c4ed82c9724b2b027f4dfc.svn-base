@@ -1,0 +1,18 @@
+<?php 
+
+$this->load->view('includes/header');
+
+$this->load->view($view);
+
+if (!empty($footer_view)) 
+{
+	$this->load->view('includes/'.$footer_view.'');
+}
+else
+{
+	$this->load->view('includes/footer');
+}
+
+$this->load->view('includes/footer_base');
+
+?>

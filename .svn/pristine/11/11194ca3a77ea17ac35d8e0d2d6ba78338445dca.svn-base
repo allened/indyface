@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?$1 [L] 
+
+RewriteEngine on
+rewritecond %{http_host} ^indyface.com [nc]
+rewriterule ^(.*)$ http://www.indyface.com/$1 [r=301,nc]
+
+RedirectMatch 301 ^/meet_staff\.asp$ /staff
+
+RedirectMatch 301 ^/indianapolis_facelift\.asp$ /staff
+
+#Redirect 301 /meet_staff.asp http://www.indyface.com/staff
+

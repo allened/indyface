@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L] 
+
+
+Redirect 301 /indianapolis_facelift.asp http://www.indyface.com/facelift_minilift_rejuvalift_indianapolis

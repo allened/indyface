@@ -1,0 +1,154 @@
+</div>
+
+<div class="span3" id="right-side">
+	
+	
+	
+	<? if (!empty($right_view)) { ?>
+    <div class="row-fluid">
+            	<div class="span12">
+                 <?=$this->load->view($right_view); ?>
+                </div>
+    </div>
+    <? } ?>
+    
+    
+    
+    
+       <div class="row-fluid well well-small">
+            <div class="span12">
+          		<div class="btn btn-block link-1">ASK THE STAFF</div>
+                <?=form_open('contact/ask_the_staff_send');?>
+                <br>
+                	<input class="span12" name="name" type="text" id="name" placeholder="Name"><br>
+                	<input class="span12" name="email" type="text" id="email" placeholder="Email"><br>
+                    <input class="span12" name="phone" type="text" id="phone" placeholder="Phone"><br>
+                    <textarea class="span12" name="user_message" rows="5" id="user_message" placeholder="Type your question here"></textarea><br>
+                    <input type="submit" class="btn btn-block" value="Submit Question">
+                </form>
+            </div>
+        </div>
+        
+        
+        
+        
+   		<div class="row-fluid">
+        	<div class="span12 text-center">
+                <a href="#">
+                 <img src="../../../images/layout/win_a_spa_day.jpg" width="200" height="100" />
+                </a>
+            </div>
+        </div>
+        <br>
+        
+        
+        
+        
+        
+        <div class="row-fluid well well-small" id="newsletter_signup">
+        	<div class="span12">
+                  <form name="ccoptin" action="http://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:3;">
+                  <span style="background-color: #006699; float:right;margin-right:5;margin-top:3">
+                  	<img src="http://img.constantcontact.com/ui/images1/visitor/email1_trans.gif" alt="Email Newsletter icon" border="0">
+                  </span>
+                <font style="font-weight: bold; font-family:Arial; font-size:16px; color:#006699;">
+                Sign up for our<br>
+                Email Newsletter<br>
+                </font>
+                <input type="text" name="ea" value="" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10px; border:1px solid #999999;" class="span12">
+                <input type="submit" name="go" value="GO" class="btn btn-block" style="font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px;">
+                <input type="hidden" name="m" value="1101152618335">
+                <input type="hidden" name="p" value="oi">
+                </form>
+            </div>
+        </div>
+       
+       
+       
+  <!----  PATIENT SURVERY NOT WORKING   
+        
+      <div class="row-fluid">
+             <div class="span12 text-center"> <a href="http://www.patientexperience.net/startsurvey.asp?sid=256&" target="new"><img src="../../../images/badges/btn-survey-170x172-malachite.png" alt="Patient Survey" width="200"/></a> 
+           </div>
+         </div>
+         --->
+           
+        
+      
+            <div class="row-fluid">
+            	<div class="span12">
+                	<? if (!empty($footer_view)) { $this->load->view($footer_view); } ?>
+                </div>
+            </div>
+      
+        
+    </div><!-- Fluid -->
+
+</div> <!-- END 3 -->
+
+
+</div>
+
+
+</div><!-- END 8 -->
+    
+
+<div class="span2">
+</div>
+
+<!-- Three Layout -->
+
+</div><!-- END row-fluid -->
+</div><!-- END container -->
+
+
+<!-- FOOTER -->
+<div class="row-fluid footer_bar">
+		
+    	<div class="span8 offset2">
+        	<div class="row-fluid text-center" id="footer_badges">
+            	
+       	    	    <img src="../../../images/badges/ABFPRSLogoFinal2013.png" width="125" height="125" /> 
+              
+   	    	    	<img src="../../../images/badges/APPSEALDIAM.png" width="153" height="125" /> 
+                
+   	    	    	<img src="../../../images/badges/top_badge.png" width="97" height="125" /> 
+  
+   	     	     	<img src="../../../images/badges/LFLASpecialistLogoRedStamp2.png" width="124" height="125" /> 
+
+            </div>
+        
+        
+        	<hr>
+        
+        
+        	<div class="row-fluid">
+            	<div class="span4 text-center">
+                
+                    <address>
+                    	<strong>Winslow Facial Plastic Surgery</strong><br>
+                        2000 East 116th Street, Suite 200<br>
+                        Carmel, Indiana 46032<br>
+                        <abbr title="Phone">Phone:</abbr> 317-814-1104
+                    </address>
+            	</div>
+                
+                <div class="span8">
+                	<p>
+                    Indianapolis Indiana facial plastic surgeon Catherine Winslow, MD, FACS specialize in cosmetic surgery of the face to include rhinoplasty, revision rhinoplasty, facelift, browlift (endoscopic and trichophytic), upper eyelift, lower eyelift, midface lift, cheek implant, chin implant, lip implant, Restylane, JUV&#201;DERM&#174;, Radiesse, BOTOX&#174;, necklift, skin care, laser hair removal, laser skin tightening, laser skin rejuvenation, chemical peels and permanent makeup. Serving Fishers Indiana, Noblesville Indiana, Indianapolis, Carmel Indiana, Zionsville Indiana and the Indianapolis community.
+                    </p>
+                    
+                    <p>
+                    	Disclaimer for Facial Plastic and Cosmetic Surgery in Carmel, Indiana: The information presented on the Winslow Facial Plastic Surgery Website is presented by Dr. Catherine Winslow, a board-certified facial plastic surgery should not be interpreted as formal medical advice regarding rhinoplasty, facelift, browlift, eyelift (blepharoplasty) or other facial cosmetic surgeries.
+                    </p>
+                    
+                    <p>
+                    All quoted prices are subject to change at any time and are not guaranteed, prices based on availability and appropriateness for surgery. No guarantees or warrantees are made, implied or expressed. Please see office policies or contact office for further information.
+                    </p>
+                
+                </div>
+            </div>
+       
+    
+    </div>
+</div>

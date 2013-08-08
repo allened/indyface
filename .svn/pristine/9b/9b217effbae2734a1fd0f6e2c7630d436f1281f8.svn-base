@@ -1,0 +1,63 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Resources extends CI_Controller {
+	
+  public function __construct()
+   {
+		parent::__construct();
+		// Your own constructor code
+   }
+
+
+	public function index()
+		{
+			$data['title'] = 'Indianapolis Facial Plastic Surgery';
+			$data['header_view'] = 'headers/home_view';
+			$data['view'] = 'home';
+			$this->load->view('template', $data);
+		}
+	
+	public function financing()
+	{
+		$data['title'] = 'Financing';
+		$data['view'] = 'resources/financing_view';
+		$this->load->view('template', $data);
+	}	
+		
+	public function patient_papwork()
+	{
+		$data['title'] = 'New Patient Papwork';
+		$data['view'] = 'resources/patient_paperwork_view';
+		$this->load->view('template', $data);
+	}
+	
+	public function surgical_papwork()
+	{
+		$data['title'] = 'Surgical Papwork';
+		$data['view'] = 'resources/surgical_paperwork_view';
+		$this->load->view('template', $data);
+	}
+	
+	public function out_of_town_visitors ()
+	{
+		$data['title'] = 'Out of Town Visitors';
+		$data['view'] = 'resources/out_of_town_visitors_view';
+		$this->load->view('template', $data);
+	}
+	
+	public function links ()
+	{
+		$data['title'] = 'Links from Indyface';
+		$data['view'] = 'resources/links_view';
+		$this->load->view('template', $data);
+	}
+	
+	
+	
+	
+	
+	
+}
+
+/* End of file welcome.php */
+/* Location: ./application/controllers/welcome.php */

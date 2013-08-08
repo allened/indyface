@@ -1,0 +1,103 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/*
+| -------------------------------------------------------------------------
+| URI ROUTING
+| -------------------------------------------------------------------------
+| This file lets you re-map URI requests to specific controller functions.
+|
+| Typically there is a one-to-one relationship between a URL string
+| and its corresponding controller class/method. The segments in a
+| URL normally follow this pattern:
+|
+|	example.com/class/method/id/
+|
+| In some instances, however, you may want to remap this relationship
+| so that a different class/function is called than the one
+| corresponding to the URL.
+|
+| Please see the user guide for complete details:
+|
+|	http://codeigniter.com/user_guide/general/routing.html
+|
+| -------------------------------------------------------------------------
+| RESERVED ROUTES
+| -------------------------------------------------------------------------
+|
+| There area two reserved routes:
+|
+|	$route['default_controller'] = 'welcome';
+|
+| This route indicates which controller class should be loaded if the
+| URI contains no data. In the above example, the "welcome" class
+| would be loaded.
+|
+|	$route['404_override'] = 'errors/page_missing';
+|
+| This route will tell the Router what URI segments to use if those provided
+| in the URL cannot be matched to a valid route.
+|
+*/
+$route['staff'] = "practice/staff";
+$route['office'] = "practice/office";
+$route['map'] = "practice/map";
+$route['frequently_asked_questions'] = "practice/frequently_asked_questions";
+$route['news'] = "practice/news";
+$route['specials'] = "practice/specials";
+$route['testimonials'] = "practice/testimonials";
+$route['employment_opportunites'] = "practice/employment_opportunites";
+
+$route['facelift_minilift_rejuvalift_indianapolis'] = "procedures/facelift";
+$route['browlift_eyelift_indianapolis'] = "procedures/browlift";
+$route['lower_eyelift_midface_indianapolis'] = "procedures/eyelift";
+$route['rhinoplasty_nose_surgery_indianapolis'] = "procedures/rhinoplasty";
+$route['otoplasty_surgery_indianapolis'] = "procedures/otoplasty";
+$route['chin_implants_indianapolis'] = "procedures/chinimplants";
+$route['lip_rejuvenation_indianapolis'] = "procedures/lips";
+$route['skin_resurfacing_peels_dermadrasion_indianapolis'] = "procedures/skinresurfacing";
+$route['botox_injectable_fillers_lipodissolve_indianapolis'] = "procedures/botox";
+
+$route['facials_indianapolis'] = "aesthetics/facials";
+$route['chemical_facial_peels_indianapolis'] = "aesthetics/peels";
+$route['giftcard'] = "aesthetics/giftcard";
+$route['giftcard_thankyou'] = "aesthetics/thankyou";
+
+$route['dr_winslow'] = "drwinslow/index";
+
+$route['microderm'] = "skincare/microderm";
+$route['micropeel'] = "skincare/micropeel";
+$route['facials'] = "skincare/facials";
+$route['lash_extensions'] = "skincare/lash_extensions";
+$route['waxing'] = "skincare/waxing";
+$route['laser_skin_resurfacing'] = "skincare/laser_skin_resurfacing";
+$route['laser_hair_removal'] = "skincare/laser_hair_removal";
+$route['perfect_tan'] = "skincare/perfect_tan";
+$route['message_therapy'] = "skincare/message_therapy";
+$route['lumicell_touch'] = "skincare/lumicell_touch";
+$route['permanent_makeup'] = "skincare/permanent_makeup";
+$route['makeup'] = "skincare/makeup";
+$route['brow_lash_tinting'] = "skincare/brow_lash_tinting";
+$route['aesthetics_question'] = "skincare/aesthetics_question";
+$route['winslow_membership'] = "skincare/winslow_membership";
+
+$route['vascular_laser'] = "skincare/patient_information";
+$route['vascular_faq'] = "skincare/vascular_faq";
+
+
+$route['acupuncture'] = "skincare/acupuncture";
+
+$route['financing'] = "/resources/financing";
+$route['new_patient_paperwork'] = "/resources/patient_papwork";
+$route['surgical_paperwork'] = "/resources/surgical_papwork";
+$route['out_of_town_visitors'] = "/resources/out_of_town_visitors";
+$route['links'] = "/resources/links";
+
+
+$route['win_a_spa_day'] = "/contact/win_a_spa_day";
+
+
+$route['default_controller'] = "home";
+$route['404_override'] = 'my404';
+
+
+/* End of file routes.php */
+/* Location: ./application/config/routes.php */

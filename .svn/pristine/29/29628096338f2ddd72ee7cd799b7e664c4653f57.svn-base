@@ -1,0 +1,97 @@
+<div class="span8 screen_gallery">
+    					<div id="allinone_thumbnailsBanner_cool" style="display:none;">
+                            <ul class="allinone_thumbnailsBanner_list">
+                            <!-- IMAGES -->
+                                <li data-bottom-thumb="images/cool/thumbs/beauty_01.jpg" data-text-id="#allinone_thumbnailsBanner_photoText1"><img src="images/cool/beauty_01.jpg" alt="" /></li>
+                                <li data-bottom-thumb="images/cool/thumbs/beauty_02.jpg" data-text-id="#allinone_thumbnailsBanner_photoText2"><img src="images/cool/beauty_02.jpg" alt="" /></li>
+                                
+                                <li data-bottom-thumb="images/cool/thumbs/beauty_03.jpg" data-text-id="#allinone_thumbnailsBanner_photoText2"><img src="images/cool/beauty_03.jpg" alt="" /></li>
+                               
+            
+                               
+                            </ul>
+
+                       </div>
+    
+    
+    </div> <!-- 8 - Screen gallery --> 
+
+</div><!-- End - screen_header -->
+
+
+
+<div class="row-fluid" id="home_thumbs">
+	<div class="span11 offset1">
+    
+                  <ul class="thumbnails">
+                  <li class="span4">
+                      <div class="row-fluid">
+                                <div class="span2 h1_number">
+                                    01.
+                                </div>
+                                <div class="span10 screen_title">
+                                    <span class="top">Featured</span><br>
+                                    <span class="bottom">Services</span>
+                                </div>
+                        </div>
+                        <br>
+                                <ul class="list2">
+                                        <li><a href="#">Facelift</a></li>
+                                        <li><a href="#">Minilift</a></li>
+                                        <li><a href="#">Brow Lift</a></li>
+                                        <li><a href="#">Upper/Lower Lids</a></li>
+                                        <li><a href="#">Rhinoplasty</a></li>
+                                        <li><a href="#">Facial Implants</a></li>
+                                        <li><a href="#">Chemical Peels</a></li>
+                                    </ul>
+                                    <br>
+                  </li>
+                  <li class="span4">
+                      <div class="row-fluid">
+                                <div class="span2 h1_number">
+                                    02.
+                                </div>
+                                <div class="span10 screen_title">
+                                    <span class="top">Quality & </span><br>
+                                    <span class="bottom">Care</span>
+                                </div>
+                        </div>
+                         <br>
+                                <ul class="list2">
+                                        <li><a href="#">Facelift</a></li>
+                                        <li><a href="#">Minilift</a></li>
+                                        <li><a href="#">Brow Lift</a></li>
+                                        <li><a href="#">Upper/Lower Lids</a></li>
+                                        <li><a href="#">Rhinoplasty</a></li>
+                                        <li><a href="#">Facial Implants</a></li>
+                                        <li><a href="#">Chemical Peels</a></li>
+                                    </ul>
+                  </li>
+                
+                  <li class="span4">
+                       <div class="row-fluid">
+                                <div class="span2 h1_number">
+                                    03.
+                                </div>
+                                <div class="span10 screen_title">
+                                    <span class="top">Non-Surgical</span><br>
+                                    <span class="bottom">Options</span>
+                                </div>
+                        </div>
+                         <br>
+                                <ul class="list2">
+                                        <li><a href="#">BOTOX &#174 </a></li>
+                                        <li><a href="#">Dysport</a></li>
+                                        <li><a href="#">Restylane</a></li>
+                                        <li><a href="#">JUVEDERM &#174 </a></li>
+                                        <li><a href="#">Radiesse</a></li>
+                                        <li><a href="#">Artefill</a></li>
+                                        <li><a href="#">Evolance</a></li>
+                                    </ul>
+                  </li>
+                </ul> <!-- END Thumbnails -->     
+
+           
+     
+    </div>
+</div>

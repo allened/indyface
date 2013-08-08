@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+RewriteEngine on
+
+RewriteEngine on
+rewritecond %{http_host} ^indyface.com [nc]
+rewriterule ^(.*)$ http://www.indyface.com/$1 [r=301,nc]
+
+
+
